@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Number Guessing Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            margin-top: 20px;
+        }
+        .container{
+            margin-top: 70px;
+            background-color: whitesmoke;
+            border: 1px solid lightgrey;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .footer{
+            margin:auto;
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        .footer p{
+            padding: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A simple number guessing game.</h1>
+        <div class="game">
+            <p><em>Do you feel lucky, punk?</em></p>
+            <p>Guess the number! Choose a number between 1 to 10.</p>
+            <input type="number" id="guess-number" placeholder="Enter a number...">
+            <button type="submit" class = "submit-btn button-primary">Submit</button>
+            <p class="message"></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Made with ❤️ by ML Feliciano © 2020</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
